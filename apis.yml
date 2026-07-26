@@ -1,7 +1,29 @@
 aid: envariant
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/envariant.png
 name: Envariant
-description: Envariant is a company surfaced as a portfolio company of y-combinator and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Envariant is building the control layer for foundation models — an AI
+  interpretability SDK that lets teams inspect, steer, and control model
+  behavior. The SDK exposes a compact set of primitives: detect and causally
+  trace behaviors like hallucinations or invariant violations, reason
+  inductively and steer outputs programmatically, extract human-readable domain
+  principles, and synthesize targeted edge cases — moving verification upstream,
+  directly into the model's latent space, with no bespoke engineering required.
+  Envariant is a Y Combinator (Winter 2026) company based in San Francisco. The
+  SDK is in pre-release beta, so no public API, OpenAPI, or developer
+  documentation is available yet; this profile captures the company identity
+  ahead of a public developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/envariant/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,36 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-batch: W2026
+x-location: San Francisco, CA, USA
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Artificial Intelligence
+- Interpretability
+- Foundation Models
+- Machine Learning
+- AI Safety
+- Model Steering
+- LLM
+- Hallucination Detection
+- Developer Tools
+- SDK
+common:
+- type: DomainSecurity
+  url: security/envariant-domain-security.yml
+- type: Website
+  url: https://envariant.ai/
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
