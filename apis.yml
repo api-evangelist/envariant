@@ -52,7 +52,7 @@ tags:
 - Artificial Intelligence
 - Interpretability
 - Foundation Models
-- Machine-Learning
+- Machine Learning
 - AI Safety
 - Model Steering
 - LLM
@@ -71,6 +71,7 @@ tags_raw:
 - Hallucination Detection
 - Developer Tools
 - SDK
+- Machine-Learning
 common:
 - type: DomainSecurity
   url: security/envariant-domain-security.yml
