@@ -46,7 +46,7 @@ x-batch: W2026
 x-location: San Francisco, CA, USA
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-19'
+modified: '2026-10-06'
 tags:
 - Company
 - Artificial Intelligence
@@ -73,6 +73,8 @@ tags_raw:
 - SDK
 - Machine-Learning
 common:
+- url: https://envariant.ai/blog/
+  type: Blog
 - type: DomainSecurity
   url: security/envariant-domain-security.yml
 - type: Website
